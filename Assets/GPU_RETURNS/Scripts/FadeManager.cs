@@ -26,7 +26,7 @@ public class FadeManager : MonoBehaviour
             // インスタンスが一度も生成されてなければ生成する
 			if (instance == null)
             {
-                Debug.Log("instance");
+                //Debug.Log("instance");
 
                 // ヒエラルキーにいる FadeManager を探して取得
                 instance = (FadeManager)FindObjectOfType(typeof(FadeManager));

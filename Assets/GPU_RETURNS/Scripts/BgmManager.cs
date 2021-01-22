@@ -44,7 +44,7 @@ public class BgmManager : MonoBehaviour
 
 	#endregion Singleton
 
-	public float TargetVolume = 1.0f;	// BGM再生音量(0.0～1.0)
+	public float TargetVolume = 0.5f;	// BGM再生音量(0.0～1.0)
 	public float TimeToFade = 2.0f;		// フェードイン、フェードアウトにかかる時間です。
 	public float CrossFadeRatio = 1.0f;	// 音を重ねる割合(0.0重ねない～1.0完全クロスフェード)
 
@@ -108,7 +108,7 @@ public class BgmManager : MonoBehaviour
 		// Dictionary(連想配列)に登録
 		foreach (AudioClip bgm in Resources.LoadAll<AudioClip>("Audio/BGM")) 
 		{
-			Debug.Log(bgm.name);
+			//Debug.Log(bgm.name);
 			AudioClipDict.Add (bgm.name, bgm);
 		}
 

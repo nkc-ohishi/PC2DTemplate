@@ -97,7 +97,7 @@ public class Enemy : MonoBehaviour
 				// やられた時の SE を再生する
 				// var audioSource = FindObjectOfType<AudioSource>();
 				// audioSource.PlayOneShot( m_hitClip );
-				SeManager.Instance.Play("NES - Action01 - 03(Stomp)");
+				SeManager.Instance.Play("NES-Action01-03(Stomp)");
 				
 
 				// プレイヤーがジャンプした時の SE は再生しないようにする

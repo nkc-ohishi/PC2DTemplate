@@ -79,7 +79,8 @@ public class SeManager : MonoBehaviour
 	// SEを再生します。
 	public void Play (string seName)
 	{
-		Play (seName, Volume, 1.0f);
+		//Play (seName, Volume, 1.0f);
+		Play(seName, 1f, 1f);
 	}
 
 	// SEを再生します。
@@ -117,6 +118,7 @@ public class SeManager : MonoBehaviour
 		source.clip = this.AudioClipDict [seName];
 		source.volume = volume;
 		source.pitch = pitch;
+		source.spatialBlend = 0f;
 		source.Play ();
 	}
 

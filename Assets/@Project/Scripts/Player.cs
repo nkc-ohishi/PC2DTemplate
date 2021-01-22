@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
 		// やられた時の SE を再生する
 		// var audioSource = FindObjectOfType<AudioSource>();
 		// audioSource.PlayOneShot( m_hitClip );
-		SeManager.Instance.Play("NES - Action01 - 05(Block)");
+		SeManager.Instance.Play("NES-Action01-05(Block)");
 
 	}
 

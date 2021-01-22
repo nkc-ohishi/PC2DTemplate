@@ -42,7 +42,7 @@ public class Fruit : MonoBehaviour
 			// フルーツを取った時の SE を再生する
 			// var audioSource = FindObjectOfType<AudioSource>();
 			// audioSource.PlayOneShot( m_collectedClip );
-			SeManager.Instance.Play("NES - Action01 - 08(Item)");
+			SeManager.Instance.Play("NES-Action01-08(Item)");
 			
 		}
 	}
