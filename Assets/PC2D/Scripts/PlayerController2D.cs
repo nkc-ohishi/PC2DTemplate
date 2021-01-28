@@ -15,6 +15,7 @@ public class PlayerController2D : MonoBehaviour
     void Start()
     {
         _motor = GetComponent<PlatformerMotor2D>();
+
     }
 
     // before enter en freedom state for ladders
@@ -41,6 +42,8 @@ public class PlayerController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         // use last state to restore some ladder specific values
         if (_motor.motorState != PlatformerMotor2D.MotorState.FreedomState)
         {
