@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GPU_RETURNS/@Project/Scenes/Stage3.unity
     guid: 0056755c3a40e5c44ad448c555d522c7
+  - enabled: 1
+    path: Assets/Scenes/Stage42.unity
+    guid: a4b2ac503f2beed4cbaffddb82fa1092
+  - enabled: 1
+    path: Assets/Scenes/Stage34.unity
+    guid: 6255d3305611ce6499a47596658e9c04
   m_configObjects: {}
