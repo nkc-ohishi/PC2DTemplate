@@ -13,6 +13,8 @@ public class HayashiSouiScript : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Return))
-        SceneManager.LoadScene(tachaScene);
+        {
+            SceneManager.LoadScene(tachaScene);
+        }
     }
 }
